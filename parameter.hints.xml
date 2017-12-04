@@ -1,0 +1,18 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.jflyfox.jfinal.base.BaseModel.findByWhere(where,paras)" />
+        <added pattern="com.jfinal.core.Controller.getParaToInt(name)" />
+        <added pattern="com.jfinal.plugin.activerecord.Model.find(sql,paras)" />
+        <added pattern="com.jfinal.plugin.activerecord.Db.queryFirst(sql)" />
+        <added pattern="com.jflyfox.jfinal.base.BaseModel.findFirstByWhere(where,paras)" />
+        <added pattern="com.jflyfox.jfinal.base.BaseModel.getInt(attr)" />
+        <added pattern="com.jfinal.plugin.activerecord.Model.getStr(attr)" />
+        <added pattern="com.jfinal.core.Controller.getPara(name)" />
+        <added pattern="com.jfinal.plugin.activerecord.Model.findFirst(sql,paras)" />
+        <added pattern="com.jflyfox.component.base.BaseModel.findByWhereAndColumns(where,columns,paras)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
