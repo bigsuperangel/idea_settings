@@ -6,6 +6,10 @@
           <option name="url" value="https://git.coding.net/bigsuperyu/jcbase.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitee.com:bigsuperyu/correction_edu.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\develop\running\workspace_idea" />
