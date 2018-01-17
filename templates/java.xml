@@ -35,4 +35,24 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="logerr" value="log.error(StrUtil.format($VAR1$,$VAR2$));" description="输出格式化后的错误日志" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="nlog" value="private static final Log log = Log.getLog($CLASS_NAME$.class);&#10;    $END$" description="新建一个log" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="loginfo" value="log.info(StrUtil.format($VAR1$,$VAR2$));" description="输出格式化后的日志" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
