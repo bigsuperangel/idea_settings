@@ -55,4 +55,13 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="jps" value="private String $UField$$END$ = &quot;$VAR1$&quot;;&#10;&#10;public String get$Field$(){&#10;    return get($UField$);&#10;}&#10;&#10;public $CLASS$ set$Field$(String value){&#10;    set($UField$,value);&#10;    return this;&#10;}" description="jfinal新建字段" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="UField" expression="capitalize(VAR1)" defaultValue="capitalize(VAR1)" alwaysStopAt="false" />
+    <variable name="Field" expression="" defaultValue="capitalize(camelCase(VAR1))" alwaysStopAt="true" />
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
