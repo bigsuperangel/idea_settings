@@ -64,7 +64,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="jpsc" value="/** $VAR0$ **/&#10;private String $UField$$END$ = &quot;$VAR1$&quot;;&#10;&#10;public String get$Field$(){&#10;    return get($UField$);&#10;}&#10;&#10;public $CLASS$ set$Field$(String value){&#10;    set($UField$,value);&#10;    return this;&#10;}" description="jfinal新建字段带注释" toReformat="false" toShortenFQNames="true">
+  <template name="jpsc" value="/** $VAR0$ **/&#10;private String $UField$$END$ = &quot;$VAR1$&quot;;&#10;&#10;/** $VAR0$ **/&#10;public String get$Field$(){&#10;    return get($UField$);&#10;}&#10;&#10;/** $VAR0$ **/&#10;public $CLASS$ set$Field$(String value){&#10;    set($UField$,value);&#10;    return this;&#10;}" description="jfinal新建字段带注释" toReformat="false" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="UField" expression="capitalize(VAR1)" defaultValue="capitalize(VAR1)" alwaysStopAt="false" />
@@ -74,7 +74,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="jpic" value="/** $VAR0$ **/&#10;private String $UField$$END$ = &quot;$VAR1$&quot;;&#10;&#10;public Integer get$Field$(){&#10;    return get($UField$);&#10;}&#10;&#10;public $CLASS$ set$Field$(Integer value){&#10;    set($UField$,value);&#10;    return this;&#10;}" description="jfinal新建字段带注释" toReformat="false" toShortenFQNames="true">
+  <template name="jpic" value="/** $VAR0$ **/&#10;private String $UField$$END$ = &quot;$VAR1$&quot;;&#10;&#10;/** $VAR0$ **/&#10;public Integer get$Field$(){&#10;    return get($UField$);&#10;}&#10;&#10;/** $VAR0$ **/&#10;public $CLASS$ set$Field$(Integer value){&#10;    set($UField$,value);&#10;    return this;&#10;}" description="jfinal新建字段带注释" toReformat="false" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="UField" expression="capitalize(VAR1)" defaultValue="capitalize(VAR1)" alwaysStopAt="false" />
