@@ -1,6 +1,7 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="TypeScript" />
       <blacklist language="Java">
         <added pattern="com.jflyfox.jfinal.base.BaseModel.findByWhere(where,paras)" />
         <added pattern="com.jfinal.core.Controller.getParaToInt(name)" />
@@ -12,7 +13,10 @@
         <added pattern="com.jfinal.core.Controller.getPara(name)" />
         <added pattern="com.jfinal.plugin.activerecord.Model.findFirst(sql,paras)" />
         <added pattern="com.jflyfox.component.base.BaseModel.findByWhereAndColumns(where,columns,paras)" />
+        <added pattern="util.InspurKit.uploadFile(key,filePath)" />
       </blacklist>
+      <blacklist language="JavaScript" />
+      <blacklist language="Groovy" />
     </blacklists>
   </component>
 </application>
