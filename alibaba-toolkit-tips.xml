@@ -1,6 +1,7 @@
 <application>
   <component name="TipsStore">
     <option name="globalFirstStartUp" value="false" />
+    <entry projectName="correction_edu" firstStartUp="false" />
     <entry projectName="teach" firstStartUp="false" />
   </component>
 </application>
