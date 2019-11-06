@@ -2,6 +2,7 @@
   <component name="TipsStore">
     <option name="globalFirstStartUp" value="false" />
     <entry projectName="correction_edu" firstStartUp="false" />
+    <entry projectName="frpMgr" firstStartUp="false" />
     <entry projectName="learn_club" firstStartUp="false" />
     <entry projectName="teach" firstStartUp="false" />
   </component>
