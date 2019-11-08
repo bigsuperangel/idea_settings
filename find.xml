@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.properties</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
@@ -17,8 +17,8 @@
     <mask>*auditForm.jsp</mask>
     <mask>centerReservation*auditForm.jsp</mask>
     <mask>*.jsp</mask>
-    <mask>*.*</mask>
     <mask>*.html</mask>
     <mask>*.java</mask>
+    <mask>*.*</mask>
   </component>
 </application>
