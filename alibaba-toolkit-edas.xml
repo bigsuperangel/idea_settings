@@ -23,6 +23,11 @@
             </EdasServiceConnectModel>
           </value>
         </entry>
+        <entry key="howcheap">
+          <value>
+            <EdasServiceConnectModel />
+          </value>
+        </entry>
         <entry key="samples">
           <value>
             <EdasServiceConnectModel>

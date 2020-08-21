@@ -1,0 +1,6 @@
+<application>
+  <component name="RegionStore">
+    <option name="regionId" value="ap-northeast-1" />
+    <option name="regionName" value="日本 (东京)" />
+  </component>
+</application>
