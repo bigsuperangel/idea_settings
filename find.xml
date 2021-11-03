@@ -3,22 +3,22 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
-    <mask>*.properties</mask>
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*html</mask>
-    <mask>*.css</mask>
     <mask>*.js</mask>
     <mask>*</mask>
     <mask>*.jsp``</mask>
     <mask>*.</mask>
     <mask>*auditForm.jsp</mask>
     <mask>centerReservation*auditForm.jsp</mask>
-    <mask>*.jsp</mask>
+    <mask>*.css</mask>
     <mask>*.html</mask>
-    <mask>*.*</mask>
     <mask>*.xml</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
     <mask>*.java</mask>
+    <mask>*.*</mask>
   </component>
 </application>
