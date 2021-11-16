@@ -13,13 +13,13 @@
     <mask>*.</mask>
     <mask>*auditForm.jsp</mask>
     <mask>centerReservation*auditForm.jsp</mask>
+    <mask>*.vue</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.vue</mask>
     <mask>*.*</mask>
   </component>
 </application>
