@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;hostKeyVerifier&quot;:{&quot;hashKnownHosts&quot;:true,&quot;stringHostKeyChecking&quot;:&quot;YES&quot;},&quot;serverAliveInterval&quot;:300}" host="49.235.225.20" id="23a81a2c-b1da-45d3-a109-cb6d47d6fb4f" port="10240" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</application>
